@@ -100,7 +100,7 @@ svm_model = SVC(kernel='linear')
 svm_model.fit(X_train, y_train)
 
 predictions = svm_model.predict(X_test)
-
+```
 ## ✨ Future Enhancements
 
 - **Cross-Validation**: Add cross-validation for better model evaluation.
