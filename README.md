@@ -57,7 +57,7 @@ Before running the project, make sure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/software-defect-detection.git
+   git clone https://github.com/om-sonawane/software-defect-detection.git
 ## 📚 How the Model Works
 
 - **Data Loading**: The model accepts a dataset in CSV format. The user uploads the data via the UI.
