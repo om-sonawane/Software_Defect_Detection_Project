@@ -7,9 +7,11 @@ def Train():
 
     from sklearn.decomposition import PCA
     from sklearn.preprocessing import LabelEncoder
-
+    from joblib import load
+    
+    
     root = tk.Tk()
-
+    
     root.geometry("800x850+250+5")
     root.title("Check Software prediction")
     root.configure(background="purple")
@@ -42,6 +44,7 @@ def Train():
 
 
     def Detect():
+        
         e1=loc.get()
         print(e1)
         e2=vg.get()
@@ -91,7 +94,7 @@ def Train():
         #########################################################################################
         
         from joblib import dump , load
-        a1=load('D://project//21cg148-software defect//SOFTWARE_MODEL.joblib')
+        a1=load('D:/Software_Defect_prediction-main/SOFTWARE_MODEL.joblib')
         v= a1.predict([[e1, e2, e3, e4, e5, e6, e7, e8, e9,e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20 ]])
         print(v)
         if v[0]==1:
