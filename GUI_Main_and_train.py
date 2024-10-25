@@ -118,7 +118,7 @@ def Data_Preprocessing():
 
 
 def Model_Training():
-    data = pd.read_csv("D://All project//21cg148-software defect//21cg148-software defect//Soft_attributes.csv")
+    data = pd.read_csv("D:/Software_Defect_prediction-main/Soft_attributes.csv")
     data.head()
 
     data = data.dropna()

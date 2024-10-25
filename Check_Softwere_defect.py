@@ -101,7 +101,7 @@ def Train():
             print("Yes")
             yes = tk.Label(root,text="software defect \nDetected!\nReport is Generated",background="red",foreground="white",font=('times', 20, ' bold '),width=15)
             yes.place(x=350,y=450)
-            file = open(r"D://project//21cg148-software defect//Report.txt", 'w')
+            file = open(r"D:/Software_Defect_prediction-main/Report.txt", 'w')
             file.write("-----Softwere Report-----\n As per input data and system model software defect prediction for Respective Paptien software."
                        "\n***Kindly Follow info***"
                     
@@ -112,7 +112,7 @@ def Train():
             print("No")
             no = tk.Label(root, text="No software defect \nDetected", background="green", foreground="white",font=('times', 20, ' bold '),width=15)
             no.place(x=350, y=450)
-            file = open(r"D://project//21cg148-software defect//Report.txt", 'w')
+            file = open(r"D:/Software_Defect_prediction-main/Report.txt", 'w')
             file.write("-----Software Report-----\n As per input data and system model No Softwere defect Detected for Respective software."
                        "\n\n***Relax and Follow below mentioned software!!!***"
                     
