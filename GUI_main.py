@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 
 
 
-##############################################+=============================================================
+
 root = tk.Tk()
 root.configure(background="black")
 # root.geometry("1300x700")

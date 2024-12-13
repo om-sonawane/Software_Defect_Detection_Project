@@ -14,7 +14,7 @@ def Train():
     
     root.geometry("800x850+250+5")
     root.title("Check Software prediction")
-    root.configure(background="purple")
+    root.configure(background="black")
     
     loc   = tk.IntVar()
     vg = tk.IntVar()

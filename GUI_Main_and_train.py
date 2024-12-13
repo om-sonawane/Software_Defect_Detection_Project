@@ -217,7 +217,8 @@ def Model_Training():
     label5 = tk.Label(root,text ="Accracy : "+str(ACC)+"%\nModel saved as SOFTWARE_MODEL.joblib",width=45,height=3,bg='khaki',fg='black',font=("Tempus Sanc ITC",14))
     label5.place(x=205,y=420)
     from joblib import dump
-    dump (svcclassifier,"SOFTWARE_MODEL.joblib")
+
+    dump (svcclassifier,"SOFTWARE_MODEL.joblib") 
     print("Model saved as SOFTWARE_MODEL.joblib")
 
 
