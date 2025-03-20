@@ -92,7 +92,7 @@ def Train():
         
         #########################################################################################
         
-        from joblib import dump , load
+        from joblib import dump,load
         a1=load('D:/Software_Defect_prediction-main/SOFTWARE_MODEL.joblib')
         v= a1.predict([[e1, e2, e3, e4, e5, e6, e7, e8, e9,e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20 ]])
         print(v)
