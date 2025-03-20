@@ -34,7 +34,7 @@ background_label.place(x=0, y=0)  # , relwidth=1, relheight=1)
 lbl = tk.Label(root, text="Software Defect prediction", font=('times', 35,' bold '), height=1, width=32,bg="violet Red",fg="Black")
 lbl.place(x=300, y=10)
 # _+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-data = pd.read_csv("D:/Software_Defect_prediction-main/Soft_attributes.csv")
+data = pd.read_csv("Soft_attributes.csv")
 
 
 
@@ -45,7 +45,7 @@ le = LabelEncoder()
 
 
 def Data_Preprocessing():
-    data = pd.read_csv("D://All project//21cg148-software defect//21cg148-software defect//Soft_attributes.csv")
+    data = pd.read_csv("Soft_attributes.csv")
     data.head()
 
     data = data.dropna()
@@ -118,7 +118,7 @@ def Data_Preprocessing():
 
 
 def Model_Training():
-    data = pd.read_csv("D:/Software_Defect_prediction-main/Soft_attributes.csv")
+    data = pd.read_csv("Soft_attributes.csv")
     data.head()
 
     data = data.dropna()

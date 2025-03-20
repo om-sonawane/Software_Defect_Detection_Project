@@ -31,7 +31,7 @@ root.title("Software Defect Prediction")
 
 
 #
-lbl = tk.Label(root, text="Software Defect Prediction", font=('Elephant', 35,' bold '),bg="black",fg="white")
+lbl = tk.Label(root, text="Software Defect Detection", font=('Elephant', 35,' bold '),bg="black",fg="white")
 lbl.place(x=300, y=10)
 
 

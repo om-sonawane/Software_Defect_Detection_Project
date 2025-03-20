@@ -11,11 +11,10 @@ def Train():
     
     
     root = tk.Tk()
-    
-    root.geometry("800x850+250+5")
-    root.title("Check Software prediction")
-    root.configure(background="black")
-    
+     
+    root.geometry("900x900+250+5")
+    root.title("Software Defect Prediction")
+    root.configure(background="#1e1e1e")
     loc   = tk.IntVar()
     vg = tk.IntVar()
     ev = tk.IntVar()
